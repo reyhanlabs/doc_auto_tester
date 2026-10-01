@@ -1,0 +1,129 @@
+{
+  "findings": [
+    {
+      "area": "Master Data",
+      "item": "Buat Customer",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:16:54.098Z"
+    },
+    {
+      "area": "Master Data",
+      "item": "Buat Vendor",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:17:02.005Z"
+    },
+    {
+      "area": "Master Data",
+      "item": "Buat Produk",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:17:13.621Z"
+    },
+    {
+      "area": "Master Data",
+      "item": "Buat Satuan Pengukuran",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:17:19.233Z"
+    },
+    {
+      "area": "Master Data",
+      "item": "Buat Gudang",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:17:25.607Z"
+    },
+    {
+      "area": "Master Data",
+      "item": "Buat Kode Biaya",
+      "status": "ERROR",
+      "detail": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('link', { name: 'Kode Biaya', exact: true })\u001b[22m\n",
+      "time": "2026-08-10T10:17:43.707Z"
+    },
+    {
+      "area": "Transaksi Pembelian",
+      "item": "Tahap 1 - Permintaan Pembelian",
+      "status": "ERROR",
+      "detail": "locator.click: Timeout 15000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('textbox', { name: 'Tanggal' })\u001b[22m\n",
+      "time": "2026-08-10T10:18:05.339Z"
+    },
+    {
+      "area": "Transaksi Pembelian",
+      "item": "Tahap 2 - Pesanan Pembelian (PO)",
+      "status": "WARNING",
+      "detail": "Dilewati, Tahap 1 gagal/nomor PR tidak ada",
+      "time": "2026-08-10T10:18:05.339Z"
+    },
+    {
+      "area": "Transaksi Pembelian",
+      "item": "Tahap 3 - Penerimaan Barang",
+      "status": "WARNING",
+      "detail": "Dilewati, nomor PO tidak ada",
+      "time": "2026-08-10T10:18:05.339Z"
+    },
+    {
+      "area": "Transaksi Pembelian",
+      "item": "Tahap 4 - Faktur Pembelian",
+      "status": "WARNING",
+      "detail": "Dilewati, nomor Penerimaan Barang tidak ada",
+      "time": "2026-08-10T10:18:05.339Z"
+    },
+    {
+      "area": "Transaksi Pembelian",
+      "item": "Tahap 5 - Pembayaran Utang Usaha",
+      "status": "WARNING",
+      "detail": "Dilewati, nomor Faktur tidak ada",
+      "time": "2026-08-10T10:18:05.339Z"
+    },
+    {
+      "area": "Laporan",
+      "item": "Laporan Keuangan > Neraca",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:18:13.374Z"
+    },
+    {
+      "area": "Laporan",
+      "item": "Laporan Keuangan > Laba Rugi Standar",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:18:21.590Z"
+    },
+    {
+      "area": "Laporan",
+      "item": "Laporan Keuangan > Jurnal Umum",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:18:29.667Z"
+    },
+    {
+      "area": "Laporan",
+      "item": "Laporan Pembelian dan Utang > Faktur Pembelian - Ringkas",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:18:37.432Z"
+    },
+    {
+      "area": "Laporan",
+      "item": "Laporan Pembelian dan Utang > Umur Utang",
+      "status": "OK",
+      "detail": "",
+      "time": "2026-08-10T10:18:45.546Z"
+    },
+    {
+      "area": "Laporan",
+      "item": "Laporan Produk > Daftar Produk",
+      "status": "ERROR",
+      "detail": "Laporan spesifik tidak ditemukan di kategori ini",
+      "time": "2026-08-10T10:18:49.801Z"
+    }
+  ],
+  "consoleErrors": [],
+  "prNumber": null,
+  "poNumber": null,
+  "receiptNumber": null,
+  "invoiceNumber": null,
+  "timestamp": "2026-08-10T10:18:49.802Z"
+}

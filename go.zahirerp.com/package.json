@@ -1,0 +1,17 @@
+{
+  "name": "go-zahirerp-tester",
+  "version": "1.0.0",
+  "description": "Automation tester untuk demo-space.zahirerp.com",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:report": "playwright show-report reports/html"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}

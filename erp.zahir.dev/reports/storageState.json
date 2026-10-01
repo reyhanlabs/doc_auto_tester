@@ -1,0 +1,135 @@
+{
+  "cookies": [
+    {
+      "name": "_hjSessionUser_1416866",
+      "value": "eyJpZCI6ImE1MmM3ODBlLWU0MmMtNThmYy05Yjk1LTNlOWQ3MDI5NWJkYyIsImNyZWF0ZWQiOjE3ODUyOTg5OTM4ODIsImV4aXN0aW5nIjpmYWxzZX0=",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1816834993,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_hjSession_1416866",
+      "value": "eyJpZCI6IjU0MmUyNjRjLWVmOGUtNDJiZC1hMDNmLTgwMzc5MzcyYzBiNiIsImMiOjE3ODUyOTg5OTM4ODgsInMiOjAsInIiOjAsInNiIjowLCJzciI6MCwic2UiOjAsImZzIjoxLCJzcCI6MX0=",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1785300793,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.213871412.1785298995",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1819858994.519739,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gid",
+      "value": "GA1.2.1383247287.1785298995",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1785385394,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gat_UA-254411-21",
+      "value": "1",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1785299054,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_fbp",
+      "value": "fb.1.1785298995604.3030408561529124",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1793075010,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "token",
+      "value": "eyJhY2Nlc3NfdG9rZW4iOiJOakl3Wm1FeFpEWXRObVk0TkMwelpEZzNMV0ptT0dNdE5ESTJZalF3Tm1ZMU1UYzUiLCJjbGllbnQiOnsiaWQiOiJlNTY5NTRiNGY2MzQ3ZTg5N2Y5NTQ0OTVlYWIxNmE4OCIsIm5hbWUiOiJaTy1SZWFjdEpTIn0sImVtYWlsIjoic3lhaWZ1bC5hbXJpZTg3QGdtYWlsLmNvbSIsImV4cGlyZWRfYXQiOiIyMDI2LTA3LTI5VDEyOjI2OjQ1KzAwOjAwIiwiZmlyc3RfbmFtZSI6IlN5YWlmdWwiLCJpc19sb2NhbF90b2tlbl9vbmx5IjpmYWxzZSwibGFzdF9uYW1lIjoiQW1yaSIsIm1vYmlsZV9udW1iZXIiOiI2MjgxMjg4NjUzMzQ0IiwicHJvZHVjdF90eXBlIjoib25fcHJlbWlzZSIsInJlZnJlc2hfdG9rZW4iOiJPREF6Wm1VMU1XVXRORGhqTkMwMU16VXdMV0V4T0RRdE1Ea3lPR1ppTUdFellXWXgiLCJ1c2VybmFtZSI6InN5YWlmdWwuYW1yaWU4N0BnbWFpbC5jb20ifQ==",
+      "domain": "erp.zahir.dev",
+      "path": "/",
+      "expires": 1786508601.363309,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "mp_e9ad8fd1a4399fcfb5cb54aee37e0b89_mixpanel",
+      "value": "%7B%22distinct_id%22%3A%22syaiful.amrie87%40gmail.com%22%2C%22%24device_id%22%3A%2260c076c0-34e7-4f9d-983a-67286ff9959f%22%2C%22%24initial_referrer%22%3A%22%24direct%22%2C%22%24initial_referring_domain%22%3A%22%24direct%22%2C%22__mps%22%3A%7B%7D%2C%22__mpso%22%3A%7B%7D%2C%22__mpus%22%3A%7B%7D%2C%22__mpa%22%3A%7B%7D%2C%22__mpu%22%3A%7B%7D%2C%22__mpr%22%3A%5B%5D%2C%22__mpap%22%3A%5B%5D%2C%22%24user_id%22%3A%22syaiful.amrie87%40gmail.com%22%7D",
+      "domain": ".zahir.dev",
+      "path": "/",
+      "expires": 1816835010,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6IkpNQlE1UERFeHptU3EyNG13dXcxYkE9PSIsInZhbHVlIjoielkzY3hKcTU2OXh0NVhWNVJHcjQ2WWRHcFFlOEVlTmkwZDgrUGFOTU1SZUplQkkrRldWNXNWXC84UmNJSUczNFwvZnIxMTc0RXNpM2F0c01LQjhkckVUZz09IiwibWFjIjoiZmY3MzJkMzU1ZWMzMjVhYzk3M2MzZjU0Y2UyNDJkZGUzZWYzZGYzNzMxZmUyYjk3MDUwMzFmZTI5MGVkNGU3MSJ9",
+      "domain": "erp.zahir.dev",
+      "path": "/",
+      "expires": 1785306210.493201,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "laravel_session",
+      "value": "eyJpdiI6IkdOdFVSbjR6UGQ4T1NhMUluQzQ1Snc9PSIsInZhbHVlIjoiK2JTV0hrRTVTT3dZMG91eU9aZFUweXIxR0kwdVdOOU96YzJJWkoxM1FaNzM1eFZZT0JxNDdmeW85d0RBcXlRN3pPVW5BbGdJS2t6RmFOUmFFVEx5QWc9PSIsIm1hYyI6IjY0YTAwZTU5MWQ1YzQxMGI3ZTY4OGFiY2IwM2RhNjZlOTBmNWU2YjU0MzkzOWNjMDEzNTA1ZmQxODU3ZDRmMTEifQ%3D%3D",
+      "domain": "erp.zahir.dev",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://erp.zahir.dev",
+      "localStorage": [
+        {
+          "name": "product_type",
+          "value": "on_premise"
+        },
+        {
+          "name": "banner_web_cashier",
+          "value": "open"
+        },
+        {
+          "name": "__mpq_e9ad8fd1a4399fcfb5cb54aee37e0b89_pp",
+          "value": "[]"
+        },
+        {
+          "name": "access_token",
+          "value": "NjIwZmExZDYtNmY4NC0zZDg3LWJmOGMtNDI2YjQwNmY1MTc5"
+        },
+        {
+          "name": "__mpq_e9ad8fd1a4399fcfb5cb54aee37e0b89_ev",
+          "value": "[{\"id\":\"whkyk7orf7p2xa8r\",\"flushAfter\":1785299016328,\"payload\":{\"event\":\"SB - list_company - LST_ID_COMPANIES_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"k62t4vq1pojiti2m\",\"time\":1785299006.326,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"pomkt46eh3240xrw\",\"flushAfter\":1785299017107,\"payload\":{\"event\":\"SB - list_company - POST_MIGRATION_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"rr85krj1c469agdy\",\"time\":1785299007.106,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"qamced2xil1xdiu9\",\"flushAfter\":1785299017446,\"payload\":{\"event\":\"SB - list_company - LST_USER_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"09z5q8qu7wndjxrq\",\"time\":1785299007.446,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"v2ozekjss7uc6cy0\",\"flushAfter\":1785299018013,\"payload\":{\"event\":\"SB - list_company - LST_SESSION_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"u7cb4e71j6skvmuk\",\"time\":1785299008.012,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"g9bkuswb7mn5sqyc\",\"flushAfter\":1785299018663,\"payload\":{\"event\":\"SB - list_company - ADD_SESSION_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"5oe0s4rpzhc5o6cw\",\"time\":1785299008.662,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"i7gqiq5mqt9fy8u2\",\"flushAfter\":1785299019415,\"payload\":{\"event\":\"SB - list_company - REMOVE_SESSION_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"8j062vxprf7twfz3\",\"time\":1785299009.414,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"ixeungwe0gw64pu1\",\"flushAfter\":1785299019494,\"payload\":{\"event\":\"SB - list_company - LST_DEFAULT_VALUE_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"4zoowwgybnx79tkv\",\"time\":1785299009.493,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"c3gwxzf2s2shyerd\",\"flushAfter\":1785299019568,\"payload\":{\"event\":\"SB - list_company - LST_COMPANY_SETTING_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"ytkjiyaragvojjkp\",\"time\":1785299009.568,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"sy4kkm5ji4p3wlg4\",\"flushAfter\":1785299019577,\"payload\":{\"event\":\"SB - list_company - LST_COMPANY_SETTINGS_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"d1jhz6sdhud4w8zv\",\"time\":1785299009.576,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"vpnidq2qdivffpi9\",\"flushAfter\":1785299019748,\"payload\":{\"event\":\"SB - list_company - EDT_USER_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"h4d0qjyagcgxwxs8\",\"time\":1785299009.748,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"r9c2gc3kyugj2k88\",\"flushAfter\":1785299018889,\"payload\":{\"event\":\"LOGIN - CHOOSE COMPANY\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"517k9w44tmsgyhgj\",\"time\":1785299008.888,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"0mq2otbns90ota1a\",\"flushAfter\":1785299019843,\"payload\":{\"event\":\"SB - list_company - LST_TRANSACTION_TYPES_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"isxpbg5r5ra0psre\",\"time\":1785299009.843,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}},{\"id\":\"yw45kgw9h54bc8fq\",\"flushAfter\":1785299020502,\"payload\":{\"event\":\"SB - list_company - LST_VARIANT_FULL\",\"properties\":{\"$os\":\"Windows\",\"$browser\":\"Chrome\",\"$current_url\":\"https://erp.zahir.dev/list-company\",\"$browser_version\":149,\"$screen_height\":720,\"$screen_width\":1280,\"mp_lib\":\"web\",\"$lib_version\":\"2.81.0\",\"$insert_id\":\"eafnjycswtb5wiqq\",\"time\":1785299010.501,\"distinct_id\":\"syaiful.amrie87@gmail.com\",\"$device_id\":\"60c076c0-34e7-4f9d-983a-67286ff9959f\",\"$initial_referrer\":\"$direct\",\"$initial_referring_domain\":\"$direct\",\"$user_id\":\"syaiful.amrie87@gmail.com\",\"Company Name\":\"Regression Test\",\"Business Type\":\"Perdagangan Umum\",\"Menu\":\"list_company\",\"Response\":\"BE\",\"token\":\"e9ad8fd1a4399fcfb5cb54aee37e0b89\"}}}]"
+        },
+        {
+          "name": "language",
+          "value": "id"
+        }
+      ]
+    }
+  ]
+}
