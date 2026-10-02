@@ -1,0 +1,55 @@
+name: Nightly Zahir ERP Tests
+
+on:
+  schedule:
+    # Jalan tiap hari jam 00:00 WIB (= 17:00 UTC hari sebelumnya)
+    # Ganti angka cron ini kalau mau jam lain. Format: menit jam * * *
+    - cron: '0 17 * * *'
+  workflow_dispatch: {} # biar bisa dipicu manual juga lewat tombol "Run workflow" di GitHub
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout kode
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Install Playwright browser
+        run: npx playwright install --with-deps chromium
+
+      - name: Siapkan .env dari GitHub Secrets
+        run: |
+          echo "BASE_URL=https://erp.zahir.dev/" >> .env
+          echo "ZAHIR_USERNAME=${{ secrets.ZAHIR_USERNAME }}" >> .env
+          echo "ZAHIR_PASSWORD=${{ secrets.ZAHIR_PASSWORD }}" >> .env
+          echo "ZAHIR_COMPANY_NAME=${{ secrets.ZAHIR_COMPANY_NAME }}" >> .env
+
+      - name: Jalankan semua test
+        run: npx playwright test
+        continue-on-error: true  # tetap lanjut ke step upload laporan walau ada test yang gagal
+
+      - name: Upload laporan HTML (selalu, walau ada yang gagal)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: reports/html/
+          retention-days: 14
+
+      - name: Upload screenshot/trace kalau ada yang gagal
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: test-results
+          path: test-results/
+          retention-days: 14
