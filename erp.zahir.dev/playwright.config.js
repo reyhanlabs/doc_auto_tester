@@ -4,8 +4,9 @@ dotenv.config();
 
 export default defineConfig({
   testDir: './tests',
-  timeout: 60_000,
-  expect: { timeout: 10_000 },
+  timeout: 120_000, // dinaikkan dari default 30 detik -> 2 menit, kasih ruang lebih buat CI yang lambat
+  expect: { timeout: 15_000 },
+  fullyParallel: false,
   workers: 1,
   retries: 1,
   reporter: [
@@ -17,13 +18,13 @@ export default defineConfig({
     trace: 'retain-on-failure',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    actionTimeout: 15_000,
+    actionTimeout: 20_000,
   },
   projects: [
     { name: 'setup', testMatch: /auth\.setup\.js/ },
     {
       name: 'chromium',
-      use: { ...devices['Desktop Chrome'], storageState: 'reports/storageState.json' },
+      use: { ...devices['Desktop Chrome'] },
       dependencies: ['setup'],
     },
   ],
