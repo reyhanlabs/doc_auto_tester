@@ -2,7 +2,6 @@ name: Nightly Zahir ERP Tests
 
 on:
   schedule:
-    # Jalan tiap hari jam 00:00 WIB (= 17:00 UTC hari sebelumnya)
     - cron: '0 17 * * *'
   workflow_dispatch: {}
 
@@ -10,13 +9,21 @@ jobs:
   test:
     runs-on: ubuntu-latest
     timeout-minutes: 30
-    defaults:
-      run:
-        working-directory: erp.zahir.dev   # <-- semua perintah di bawah jalan di dalam subfolder ini
 
     steps:
       - name: Checkout kode
         uses: actions/checkout@v4
+
+      - name: DEBUG - lihat struktur folder
+        run: |
+          echo "Lokasi saat ini:"
+          pwd
+          echo ""
+          echo "Isi folder root repo:"
+          ls -la
+          echo ""
+          echo "Cari folder yang namanya mengandung 'zahir':"
+          find . -maxdepth 1 -iname "*zahir*"
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -24,12 +31,15 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
+        working-directory: erp.zahir.dev
         run: npm install
 
       - name: Install Playwright browser
+        working-directory: erp.zahir.dev
         run: npx playwright install --with-deps chromium
 
       - name: Siapkan .env dari GitHub Secrets
+        working-directory: erp.zahir.dev
         run: |
           echo "BASE_URL=https://erp.zahir.dev/" >> .env
           echo "ZAHIR_USERNAME=${{ secrets.ZAHIR_USERNAME }}" >> .env
@@ -37,6 +47,7 @@ jobs:
           echo "ZAHIR_COMPANY_NAME=${{ secrets.ZAHIR_COMPANY_NAME }}" >> .env
 
       - name: Jalankan semua test
+        working-directory: erp.zahir.dev
         run: npx playwright test
         continue-on-error: true
 
